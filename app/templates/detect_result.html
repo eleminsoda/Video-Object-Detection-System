@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What's in Your Video?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div>
+        <video width="600" height="400"
+            controls="controls">
+            <source src="{{ url_for('static', filename='result.mp4') }}" type="video/mp4">
+        </video>
+
+
+        <!-- <table border="1">
+            <tr>
+                <th>filename</th>
+                <th>id</th>
+                <th>frame</th>
+                <th>class</th>
+                <th>x</th>
+                <th>y</th>
+                <th>w</th>
+                <th>h</th>
+            </tr>
+
+            {% for item in result%}
+            <tr>
+                <td> {{ filename }} </td>
+                <td> {{ item[0] }} </td>
+                <td> {{ item[1] }} </td>
+                <td> {{ item[2] }} </td>
+                <td> {{ item[3] }} </td>
+                <td> {{ item[4] }} </td>
+                <td> {{ item[5] }} </td>
+                <td> {{ item[6] }} </td>
+            </tr>
+            {% endfor %}
+
+        </table> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+header{
+    font-size: 30pt;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+div, p, form{
+    text-align: center;
+    margin: 30px auto;
+}
+
+video, table, a{
+    margin: 0 auto;
+    text-align: center;
+}
+
+video{
+    margin-top: 300px;
+    margin-bottom: 50px;
+}

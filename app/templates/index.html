@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What's in Your Video?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>Let's See What's in Your Video!</header>
+    <div>
+        <p>Upload your video here.</p>
+        <form name="video" id="videoUpdate" enctype="multipart/form-data" method="POST"
+            action="http://127.0.0.1:5000/upload">
+            <input type='file' id="videoSource" name="videoSource" multiple>
+            <input type="submit" value="Submit" id="videoSubmit">
+        </form>
+    </div>
+</body>
+
+
+</html>
