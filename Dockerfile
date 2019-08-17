@@ -9,6 +9,8 @@ FROM jjanzic/docker-python3-opencv:contrib
 COPY . /app
 WORKDIR /app/app
 
+VOLUME [ "/app/darknet" ]
+
 RUN pip install -r ../requirements.txt
 
 CMD ["python", "app.py"]
