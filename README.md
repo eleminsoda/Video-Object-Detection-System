@@ -49,7 +49,11 @@ As the main program has been dockerized and published, you can simply run `docke
 
 If you see something in the console like `Running on http://0.0.0.0:5000/`, that means the project has been properly set up in your computer, and now you can open a browser and type `0.0.0.0:5000` and you can see the main page of the website.
 
+<<<<<<< HEAD
 ![](./main_page.png)
+=======
+<img src='main_page.png'></img>
+>>>>>>> 29d32aea6c3bee9008641013a1714448c8bf89d3
 
 
 
